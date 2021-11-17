@@ -14,7 +14,6 @@ int addNode(struct node **head,int data)
         (*head)->data=data;
         (*head)->next=NULL;
         state=0;
-        printf("wtf\n");
         printf(" head %d \n",(*head)->data);
     }
     else 
